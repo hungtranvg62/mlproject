@@ -30,3 +30,6 @@ logging.basicConfig(
     level=logging.INFO,
 
 )
+
+# if __name__ == "__main__":
+#     logging.info("Logging has started") # runs only when the file is run directly, not when it is imported
