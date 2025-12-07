@@ -19,7 +19,7 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         logging.info("Enter the data ingestion method or component")
         try:
-            df = pd.read_csv('notebook\data\stud.csv') # change this line if you want to take data from, for example, cloud databases
+            df = pd.read_csv('notebook/data/stud.csv') # change this line if you want to take data from, for example, cloud databases
             # put logging.info() after important operations
             logging.info('Read the dataset as DataFrame') # write logging so that we will know which line the exception is happening
         
